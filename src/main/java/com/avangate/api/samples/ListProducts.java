@@ -7,9 +7,9 @@ public class ListProducts
 {
     public static void main( String[] args )
     {
-        String merchantCode = "AVLRNG";
-        String merchantSecret = "1sGC*[c_T0)J9(k+]6Kw";
-        String apiUrl = "https://api.avangate.com/rest/3.0/";
+        String merchantCode = "";
+        String merchantSecret = "";
+        String apiUrl = "";
 
         ApiClient client = new ApiClient(merchantCode, merchantSecret, apiUrl);
 
